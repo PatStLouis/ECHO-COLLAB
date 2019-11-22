@@ -1,0 +1,133 @@
+/* Great CSS, though you can use other types of selectors instead of adding classes to simplify your life.
+Check out this site! https://www.w3schools.com/cssref/css_selectors.asp  */
+
+
+body{
+    background: #000000;
+}
+nav{
+    align-content: center;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.navLinkSystème{
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+.navLinkSystème a{
+    float: none;
+    text-align: center;
+    color: red;
+    padding: 14px 12px;
+    font-size: 24px;
+    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do*/
+
+}
+.navLinkExpress{
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+}
+.navLinkWeb{
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+}
+.navLinkExpress a{
+    float: none;
+    text-align: center;
+    color: blue;
+    padding: 14px 12px;
+    font-size: 24px;
+    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do
+
+    What are you talking about, everyone loves Comic Sans lol */
+
+
+}
+.navLinkWeb a{
+    float: none;
+    text-align: center;
+    color: green;
+    padding: 14px 12px;
+    font-size: 24px;
+    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do*/
+
+}
+.PresentationSystème{
+    font-family: "Comic Sans MS";
+}
+.PresentationSystème h1{
+    color: red;
+    font-size: 20px;
+}
+.PresentationSystème p{
+    color: red;
+    font-size: 15px;
+}
+.ContentSystème{
+    font-family: "Comic Sans MS";
+}
+.ContentSystème h1{
+    color: red;
+    font-size: 20px;
+}
+.ContentSystème p{
+    color: red;
+    font-size: 15px;
+}
+.PresentationExpress{
+    font-family: "Comic Sans MS";
+}
+.PresentationExpress h1{
+    color: blue;
+    font-size: 20px;
+}
+.PresentationExpress p{
+    color: blue;
+    font-size: 15px;
+}
+.ContentExpress{
+    font-family: "Comic Sans MS";
+}
+.ContentExpress h1{
+    color: blue;
+    font-size: 20px;
+}
+.ContentExpress p{
+    color: blue;
+    font-size: 15px;
+}
+.PresentationWeb h1{
+    color: green;
+    font-size: 20px;
+}
+.PresentationWeb p{
+    color: green;
+    font-size: 15px;
+}
+.ContentWeb{
+    font-family: "Comic Sans MS";
+}
+.ContentWeb h1{
+    color: green;
+    font-size: 20px;
+}
+.ContentWeb p{
+    color: green;
+    font-size: 15px;
+}
+img.logo{
+    display: block;
+    margin: auto;
+    width: 50%;
+    max-width: max-content;
+
+}
+.Questions{
+    color: blue;
+}
