@@ -3,50 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <title>EchoSystème</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/Echo-net.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script.js" async></script>
     </head>
     <body>
         <header>
-            <!-- L'attribut align est vieux et ne devrait plus être utilisé. À remplacer avec CSS-->
-            <!-- Dépendant de ce que tu essayes de faire, le div semble ne pas être nécessaire -->
-
-            <img class="logo" src="images/Logo.png" alt="LogoSystème" >  <!-- Organisation du dossier, j'ai changé la source -->
-
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item" aria-current="page">Home</li>
                 </ol>
             </nav>
+            <img class="logo" src="images/Logo.png" alt="LogoSystème" >
             <nav>
                 <!-- Using Bootstrap classes -->
-                <section class="navLinkExpress">
+                <section id="navLink" class="navLink systeme">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="EchoExpress.html">EchoExpress</a>
+                            <a class="nav-link" href="EchoExpress.html">&#60;/ EchoExpress &#62;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="EchoSystème.html">EchoSystème</a>
+                            <a class="nav-link active" href="EchoSystème.html">&#60;/ EchoSystème &#62;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="EchoWeb.html">EchoWeb</a>
+                            <a class="nav-link" href="EchoWeb.html">&#60;/ EchoWeb &#62;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="icon" onclick="responsive()">
+                                <i class="fa fa-bars"></i>
+                            </a>
                         </li>
                     </ul>
                 </section>
             </nav>
         </header>
-        <section class="PresentationSystème">
-            <!-- H1 devrait être utilisé pour le titre de la page, on peut se servir du H2 -->
-            <h1> Something clever </h1>
-            <p> something  REALLY clever </p>
-        </section>
-        <section class="ContentSystème">
-            <!-- H1 devrait être utilisé pour le titre de la page, on peut se servir du H2 -->
-            <h1>Something else</h1>
-            <p>Something if</p>
-        </section>
+        <main>
+            <section class="PresentationSystème">
+                <!-- H1 devrait être utilisé pour le titre de la page, on peut se servir du H2 -->
+                <h1> Something clever </h1>
+                <p> something  REALLY clever </p>
+            </section>
+            <section class="ContentSystème">
+                <!-- H1 devrait être utilisé pour le titre de la page, on peut se servir du H2 -->
+                <h1>Something else</h1>
+                <p>Something if</p>
+            </section>
+        </main>
     </body>
 </html>

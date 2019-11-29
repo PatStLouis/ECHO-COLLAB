@@ -1,6 +1,10 @@
 /* Great CSS, though you can use other types of selectors instead of adding classes to simplify your life.
 Check out this site! https://www.w3schools.com/cssref/css_selectors.asp  */
-
+main{
+    margin: auto;
+    width: 50%;
+    max-width: max-content;
+}
 
 body{
     background: #000000;
@@ -10,78 +14,89 @@ nav{
     padding-left: 12.5%;
     padding-right: 12.5%;
 }
+.navLink .icon {
+    display: none;
+}
 
-.navLinkSystème{
-    background-color: grey;
+@media screen and (max-width: 600px) {
+    .navLink a:not(:first-child) {display: none;}
+    .navLink a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navLink.responsive {position: relative;}
+    .navLink.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navLink.responsive a {
+        float: none;
+        display: none;
+        text-align: left;
+    }
+}
+
+.navLink{
+    background-color: #2b2b2b;
     overflow: hidden;
     text-align: center;
-
-
-}
-.navLinkSystème a{
-    float: none;
-    text-align: center;
-    color: red;
-    padding: 14px 12px;
-    font-size: 24px;
-    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do*/
+    margin-bottom: 2em;
 
 }
-.navLinkExpress{
-    background-color: grey;
-    overflow: hidden;
-    text-align: center;
-}
-.navLinkWeb{
-    background-color: grey;
-    overflow: hidden;
-    text-align: center;
-}
-.navLinkExpress a{
-    float: none;
+
+.navLink a {
+    float: left;
     text-align: center;
     color: blue;
-    padding: 14px 12px;
-    font-size: 24px;
-    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do
-
-    What are you talking about, everyone loves Comic Sans lol */
-
-
+    padding: 13px 20px;
+    font-size: 31px;
+    font-family: "Roboto Light", sans-serif;
 }
-.navLinkWeb a{
-    float: none;
-    text-align: center;
-    color: green;
-    padding: 14px 12px;
-    font-size: 24px;
-    font-family: "Comic Sans MS"; /* Dont leave me in charge of the CSS. This is what happens when u do*/
-
+.navLink ul{
+    margin: auto;
+    width: 65%;
 }
+
+.express a{
+    color: #053166;
+}
+
+.web a{
+    color: #318924;
+}
+
+.systeme a{
+    color: rgba(255,25,25,0.65);
+}
+
 .PresentationSystème{
-    font-family: "Comic Sans MS";
+    font-family: "Roboto Light";
 }
 .PresentationSystème h1{
-    color: red;
+    color: rgba(255,25,25,0.65);
     font-size: 20px;
 }
 .PresentationSystème p{
-    color: red;
+    color: rgba(255,25,25,0.65);
     font-size: 15px;
 }
 .ContentSystème{
-    font-family: "Comic Sans MS";
+    font-family: "Roboto Light";
 }
 .ContentSystème h1{
-    color: red;
+    color: rgba(255,25,25,0.65);
     font-size: 20px;
 }
 .ContentSystème p{
-    color: red;
+    color: rgba(255,25,25,0.65);
     font-size: 15px;
 }
 .PresentationExpress{
-    font-family: "Comic Sans MS";
+    font-family: "Roboto Light";
 }
 .PresentationExpress h1{
     color: blue;
@@ -92,7 +107,7 @@ nav{
     font-size: 15px;
 }
 .ContentExpress{
-    font-family: "Comic Sans MS";
+    font-family: "Roboto Light";
 }
 .ContentExpress h1{
     color: blue;
@@ -103,22 +118,22 @@ nav{
     font-size: 15px;
 }
 .PresentationWeb h1{
-    color: green;
+    color: #318924;
     font-size: 20px;
 }
 .PresentationWeb p{
-    color: green;
+    color: #318924;
     font-size: 15px;
 }
 .ContentWeb{
-    font-family: "Comic Sans MS";
+    font-family: "Roboto Light";
 }
 .ContentWeb h1{
-    color: green;
+    color: #318924;
     font-size: 20px;
 }
 .ContentWeb p{
-    color: green;
+    color: #318924;
     font-size: 15px;
 }
 img.logo{
