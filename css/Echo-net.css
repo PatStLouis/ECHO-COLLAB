@@ -58,7 +58,7 @@ nav{
 }
 .navLink ul{
     margin: auto;
-    width: 65%;
+    width: max-content;
 }
 
 .express a{
