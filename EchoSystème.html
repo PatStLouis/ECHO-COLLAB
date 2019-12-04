@@ -14,29 +14,21 @@
     </head>
     <body>
         <header>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item" aria-current="page">Home</li>
-                </ol>
-            </nav>
             <img class="logo" src="images/Logo.png" alt="LogoSystème" >
-            <nav>
-                <!-- Using Bootstrap classes -->
-                <section id="navLink" class="navLink systeme">
-                    <ul class="nav">
+            <nav id="navLink" class="navbar navbar-expand-sm navbar-dark bg-dark navLink express">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="EchoExpress.html">&#60;/ EchoExpress &#62;</a>
+                            <a class="nav-link" href="EchoExpress.html">&#60;/EchoExpress&#62;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="EchoSystème.html">&#60;/ EchoSystème &#62;</a>
+                            <a class="nav-link active">&#60;/EchoSystème&#62;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="EchoWeb.html">&#60;/ EchoWeb &#62;</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="javascript:void(0);" class="icon" onclick="responsive()">
-                                <i class="fa fa-bars"></i>
-                            </a>
+                            <a class="nav-link" href="EchoWeb.html">&#60;/EchoWeb&#62;</a>
                         </li>
                     </ul>
                 </section>
