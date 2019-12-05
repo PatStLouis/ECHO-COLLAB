@@ -64,7 +64,7 @@ nav{
 .PresentationSystème{
     font-family: "Roboto Light";
 }
-.PresentationSystème h1{
+.PresentationSystème h2{
     color: rgba(255,25,25,0.65);
     font-size: 20px;
 }
@@ -75,7 +75,7 @@ nav{
 .ContentSystème{
     font-family: "Roboto Light";
 }
-.ContentSystème h1{
+.ContentSystème h2{
     color: rgba(255,25,25,0.65);
     font-size: 20px;
 }
