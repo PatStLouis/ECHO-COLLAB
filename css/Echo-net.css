@@ -86,23 +86,19 @@ nav{
 .PresentationExpress{
     font-family: "Roboto Light";
 }
-.PresentationExpress h1{
-    color: blue;
-    font-size: 20px;
-}
 .PresentationExpress p{
-    color: blue;
+    color: white;
     font-size: 15px;
 }
 .ContentExpress{
     font-family: "Roboto Light";
 }
-.ContentExpress h1{
-    color: blue;
+.ContentExpress h2{
+    color: #053166;
     font-size: 20px;
 }
 .ContentExpress p{
-    color: blue;
+    color: white;
     font-size: 15px;
 }
 .PresentationWeb h1{
@@ -112,6 +108,14 @@ nav{
 .PresentationWeb p{
     color: white;
     font-size: 15px;
+}
+.PresentationWeb {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #318924;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
 }
 .ContentWeb{
     font-family: "Roboto Light";
