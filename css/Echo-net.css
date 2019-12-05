@@ -135,6 +135,40 @@ nav{
     color: #318924;
     font-size: 15px;
 }
+.plus {
+    position:relative;
+    border: 1px dotted black;
+    width: 3px;
+    height: 3px;
+    background-color: #318924;
+    box-sizing: border-box;
+    transform: scale(11);
+    left: 1em;
+}
+/*.plus {
+    display:inline-block;
+    width:50px;
+    height:50px;
+
+    background:
+        linear-gradient(white,black),
+        linear-gradient(white,white),
+        #000;
+    background-position:center;
+    background-size: 50% 4px,4px 50%; /thickness = 2px, length = 50% (25px)/
+    background-repeat:no-repeat;
+}
+.alt {
+    background:
+        linear-gradient(white,white),
+        linear-gradient(white,black);
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /thickness = 2px, length = 50% (25px)/
+    background-repeat:no-repeat;
+}
+.radius {
+    border-radius:50%;
+}*/
 img.logo{
     display: block;
     margin: auto;
