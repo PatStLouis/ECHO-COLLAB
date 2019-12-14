@@ -15,20 +15,26 @@
     <body>
         <header>
             <img class="logo" src="images/Logo.png" alt="LogoSystème" >
-            <nav id="navLink" class="navbar navbar-expand-sm navbar-dark bg-dark navLink express">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <section class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="nav nav-pills nav-fill">
                         <li class="nav-item">
-                            <a class="nav-link express" href="EchoExpress.html">&#60;/EchoExpress&#62;</a>
+                            <a class="nav-link" href="EchoExpress.html">&#60;/EchoExpress&#62;</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active systeme">&#60;/EchoSystème&#62;</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">&#60;/EchoSystème&#62;</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Guides</a>
+                                <a class="dropdown-item" href="#">Contactez-nous</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="EchoSystème.html">&#60;/EchoSystème&#62;</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link web" href="EchoWeb.html">&#60;/EchoWeb&#62;</a>
+                        <li class="nav-item web">
+                            <a class="nav-link" href="EchoWeb.html">&#60;/EchoWeb&#62;</a>
                         </li>
                     </ul>
                 </section>

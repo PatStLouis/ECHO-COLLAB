@@ -9,58 +9,6 @@ main{
 body{
     background: #000000;
 }
-nav{
-    align-content: center;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
-}
-.navLink .icon {
-    display: none;
-}
-
-
-.navLink{
-    background-color: #2b2b2b;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 2em;
-
-}
-.web{
-    color: #318924;
-}
-.express{
-    color: #053166;
-}
-.systeme{
-    color: red;
-}
-
-.navLink a {
-    float: left;
-    text-align: center;
-    color: blue;
-    padding: 13px 20px;
-    font-size: 31px;
-    font-family: "Roboto Light", sans-serif;
-}
-.navLink ul{
-    margin: auto;
-    width: max-content;
-}
-
-.express a{
-    color: #053166;
-}
-
-.web a{
-    color: #318924;
-}
-
-.systeme a{
-    color: rgba(255,25,25,0.65);
-}
-
 .PresentationSystème{
     font-family: "Roboto Light";
 }
@@ -146,30 +94,6 @@ nav{
     left: .75em;
     top: 7em;
 }
-/*.plus {
-    display:inline-block;
-    width:50px;
-    height:50px;
-
-    background:
-        linear-gradient(white,black),
-        linear-gradient(white,white),
-        #000;
-    background-position:center;
-    background-size: 50% 4px,4px 50%; /thickness = 2px, length = 50% (25px)/
-    background-repeat:no-repeat;
-}
-.alt {
-    background:
-        linear-gradient(white,white),
-        linear-gradient(white,black);
-    background-position:center;
-    background-size: 50% 2px,2px 50%; /thickness = 2px, length = 50% (25px)/
-    background-repeat:no-repeat;
-}
-.radius {
-    border-radius:50%;
-}*/
 img.logo{
     display: block;
     margin: auto;
