@@ -1,98 +1,5 @@
-/* Great CSS, though you can use other types of selectors instead of adding classes to simplify your life.
-Check out this site! https://www.w3schools.com/cssref/css_selectors.asp  */
-main{
-    margin: auto;
-    width: 50%;
-    max-width: max-content;
-}
-
 body{
     background: #000000;
-}
-.PresentationSystème{
-    font-family: "Roboto Light";
-}
-.PresentationSystème h2{
-    color: rgba(255,25,25,0.65);
-    font-size: 20px;
-}
-.PresentationSystème p{
-    color: white;
-    font-size: 15px;
-}
-.ContentSystème{
-    font-family: "Roboto Light";
-}
-.ContentSystème h2{
-    color: rgba(255,25,25,0.65);
-    font-size: 20px;
-}
-.ContentSystème p{
-    color: rgba(255,25,25,0.65);
-    font-size: 15px;
-}
-.PresentationExpress{
-    font-family: "Roboto Light";
-}
-.PresentationExpress p{
-    color: white;
-    font-size: 15px;
-}
-.ContentExpress{
-    font-family: "Roboto Light";
-    border-style: solid;
-    border-width: 5px;
-    border-color: #053166;
-    border-radius: 12px;
-    margin: 20px;
-    padding: 20px;
-
-}
-.ContentExpress h2{
-    color: #053166;
-    font-size: 20px;
-}
-.ContentExpress p{
-    color: white;
-    font-size: 15px;
-}
-.PresentationWeb h1{
-    color: #318924;
-    font-size: 20px;
-}
-.PresentationWeb p{
-    color: white;
-    font-size: 15px;
-}
-.PresentationWeb {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #318924;
-    border-radius: 12px;
-    margin: 20px;
-    padding: 20px;
-}
-.ContentWeb{
-    font-family: "Roboto Light";
-}
-.ContentWeb h1{
-    color: #318924;
-    font-size: 20px;
-}
-.ContentWeb p{
-    color: #318924;
-    font-size: 15px;
-}
-.plus {
-    position:relative;
-    border: 1px dotted black;
-    width: 3px;
-    height: 3px;
-    background-color: #318924;
-    box-sizing: border-box;
-    transform: scale(11);
-    left: .75em;
-    top: 7em;
 }
 img.logo{
     display: block;
@@ -101,11 +8,13 @@ img.logo{
     max-width: max-content;
 
 }
-.Questions{
-    color: blue;
-}
-.card{
-    margin-bottom: 1em;
+main h2{
+    color: white;
 }
 
-
+section img{
+    width: 530px;
+}
+card p{
+    color: black;
+}
