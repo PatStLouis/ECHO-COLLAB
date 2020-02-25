@@ -27,9 +27,6 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link active" aria-current="true">[Echo|Hack]]</a>
                         </li>
-                        <li class="nav-item web">
-                            <a class="nav-link" href="echoweb.html">[Echo|Web]]</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">[Echo|Express]</a>
                         </li>
@@ -57,7 +54,7 @@
                 </section>
                 <section class="form-group">
                     <label for="msg">Message</label>
-                    <textarea class="form-control" id="msg" name="msg" placeholder="Écrivez votre message ici"> 
+                    <textarea class="form-control" id="msg" name="msg" placeholder="Écrivez votre message ici"> </textarea>
                 </section>
                 <button type="submit" class="btn btn-primary">Soumettre</button>
             </form>
